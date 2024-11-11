@@ -1,0 +1,9 @@
+{
+  "name": "consumermesh/site-search",
+  "description": "Consumer Mesh Headless GQL Compose",
+  "type": "drupal-recipe",
+  "version": "0.1.0",
+  "require": {
+    "drupal/search_api": "^1.35"
+  }
+}

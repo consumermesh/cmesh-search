@@ -1,0 +1,13 @@
+name: 'Search'
+description: 'Configures search for Consumer Mesh'
+type: 'Content type'
+
+recipes:
+
+install:
+  - search_api
+
+config:
+  import:
+    search_api: *
+  actions:
