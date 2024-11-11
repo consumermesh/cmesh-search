@@ -6,8 +6,10 @@ recipes:
 
 install:
   - search_api
+  - search_api_db
 
 config:
   import:
-    search_api: *
+    search_api: '*'
+    search_api_db: '*'
   actions:
